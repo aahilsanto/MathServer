@@ -106,7 +106,7 @@ math.html
 
         </style>
     </head>
-    <body background="bulb.jpg">
+    <body>
         <h1>Power of a Lamp Filament</h1><br>
         <div class="inputs">
             <form method="POST">
