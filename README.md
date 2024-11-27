@@ -111,13 +111,13 @@ math.html
         <div class="inputs">
             <form method="POST">
                 {% csrf_token %}
-                <label for="input1">Enter the intensity of the bulb:</label>
+                <label for="input1">Enter the intensity of the bulb(in W/m^2):</label>
                 <input type="text" id="input1" name="intensity" placeholder="Enter Intensity" value="{{I}}">
-                <label for="input2">Enter the resistance of the bulb</label>
+                <label for="input2">Enter the resistance of the bulb(in ohm)</label>
                 <input type="text" id="input2" name="resistance" placeholder="Enter Resistance" value="{{R}}">
                 <button type="submit">Submit</button>
             </form>
-            <label for="ans">Answer: </label>
+            <label for="ans">Answer(in watts): </label>
             <input type="text" id="ans" value="{{power}}" readonly>
         </div>
     </body>
@@ -163,11 +163,11 @@ urlpatterns = [
 
 ## SERVER SIDE PROCESSING:
 
-![alt text](<Screenshot (31).png>)
+![alt text](<Screenshot (33).png>)
 
 ## HOMEPAGE:
 
-![alt text](<Screenshot (30).png>)
+![alt text](<Screenshot (32).png>)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
